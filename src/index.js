@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
+import App from './App';
 
-ReactDOM.render(<div>winnipeg.js</div>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 console.log('just to create one change!!');
 
 // If you want your app to work offline and load faster, you can change
