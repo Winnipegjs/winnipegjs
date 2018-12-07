@@ -20,7 +20,7 @@ body {
 
 #body_container {
     min-height: 100%;
-    /* position: relative; */
+    position: relative;
 }
 
 h2 {
@@ -125,6 +125,10 @@ header {
 #footer_spacer {
     height: 125px;
     clear: both;
+}
+
+#root {
+    display: initial;
 }
 
 footer {
@@ -281,13 +285,6 @@ footer {
 
         #main.events li {
             padding-bottom: 20px;
-        }
-
-    #main.event-page {
-    }
-
-        #main.event-page .description {
-
         }
 
         #main.event-page ul.tdd-benefit-list {

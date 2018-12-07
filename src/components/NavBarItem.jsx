@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-const NavBarItem = ({ label, href, active }) => {
+const NavBarItem = ({ label, href }) => {
   return (
     <li>
-      <Link to={href} className={active ? 'active' : null}>
+      <NavLink to={href} activeClassName="active" exact>
         {label}
-      </Link>
+      </NavLink>
     </li>
   );
 };

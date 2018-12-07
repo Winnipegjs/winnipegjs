@@ -4,7 +4,7 @@ import NavBarItem from './NavBarItem';
 const NavBar = () => {
   return (
     <ul id="nav">
-      <NavBarItem href="/" label="Home" active />
+      <NavBarItem href="/" label="Home" />
       <NavBarItem href="/events" label="Events" />
       <NavBarItem href="/forum" label="Forum" />
       <NavBarItem href="/resources" label="Resources" />

@@ -1,11 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Forum = () => {
   return (
-    <div>
+    <div id="main" className="forum">
       <h1>Forum</h1>
-      <Link to="/resources">Resources</Link>
+      <p>
+        We are shutting down the forum, we encorage you to subscribe to our
+        slack chat.
+      </p>
+      <a
+        href="http://slack.winnipegjs.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        http://slack.winnipegjs.org/
+      </a>
     </div>
   );
 };
