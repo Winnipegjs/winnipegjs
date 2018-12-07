@@ -20,7 +20,7 @@ body {
 
 #body_container {
     min-height: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 h2 {
@@ -56,7 +56,7 @@ time {
     {
         font-weight: 700;
     }
-    
+
     .announcement a {
         color: black;
     }
@@ -72,7 +72,7 @@ h3 a {
 }
 
 header {
-	background: transparent url(/images/topbar-bg.jpg) repeat;        
+	background: transparent url(/images/topbar-bg.jpg) repeat;
 	border-bottom: 3px solid #969091;
 	overflow: auto;
 }
@@ -96,14 +96,14 @@ header {
         float: right;
         margin-right: 20px;
     }
-    
+
     header li {
         display: block;
         margin: 10px 10px;
         float: left;
-        
+
     }
-    
+
         header li a {
             padding: 5px 20px;
             float: left;
@@ -114,7 +114,7 @@ header {
             display: block;
             border-radius: 5px;
         }
-    
+
         header li a.active,
         header li a:hover {
             background-color: rgba(87, 77, 79, 1.0);
@@ -151,11 +151,11 @@ footer {
         float: left;
         margin-left: 50px;
     }
-    
+
     footer > div > div > span {
         line-height: 32px;
     }
-    
+
     footer img {
         width: 32px;
         height: 32px;
@@ -163,7 +163,7 @@ footer {
         float: left;
         margin-right: 10px;
     }
-    
+
     footer #copyrights {
         margin: 10px auto;
         margin-bottom: 0;
@@ -172,17 +172,17 @@ footer {
         color: #969091;
         text-align: center;
     }
-    
+
     footer #copyrights a {
         color: #969091;
         display: inline;
-        text-align: center;        
+        text-align: center;
     }
-    
+
     footer #copyrights > div {
         float: none;
     }
-    
+
     footer a {
         color: white;
     }
@@ -198,10 +198,10 @@ footer {
         padding-bottom: 25px;
     }
 
-    #main #mc_embed_signup{ 
+    #main #mc_embed_signup{
         clear: left;
     }
-    
+
     #main #mc_embed_signup input.email {
         display: block;
         padding: 3px 0;
@@ -210,16 +210,16 @@ footer {
         width: 58%;
         min-width: 130px;
     }
-    
+
     #main #mc_embed_signup form {
         margin: 0;
         padding: 0;
     }
-    
+
     #main #mc_embed_signup label {
         font-size: 12px;
     }
-    
+
     #main.index .logo-wrapper {
         text-align: center;
         margin-bottom: 60px;
@@ -231,39 +231,39 @@ footer {
         color: #ffd952;
         display: block;
     }
-    
+
     #main.index .tagline {
         font-size: 18pt;
         color: #574d4f;
     }
-    
+
     #main.index .announcement {
         margin-top: 25px;
         margin-bottom: 0;
     }
-    
+
     #main.index .columns {
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
         width: 940px;
         overflow: auto;
-        padding: 0 10px;        
+        padding: 0 10px;
     }
         #main.index .columns > div {
             float: left;
             width: 300px;
             margin-left: 20px;
         }
-        
+
         #main.index .columns > div:first-child {
             margin-left: 0;
         }
-        
+
     #main.events {
         max-width: 800px;
     }
-        
+
         #main.events img {
             float: left;
             display: block;
@@ -278,18 +278,18 @@ footer {
             padding: 0;
             margin: 0;
         }
-        
+
         #main.events li {
             padding-bottom: 20px;
         }
-        
+
     #main.event-page {
     }
-    
+
         #main.event-page .description {
-        
+
         }
-        
+
         #main.event-page ul.tdd-benefit-list {
             margin-left: 10px;
         }
@@ -300,18 +300,18 @@ footer {
             width: 100px;
             height: auto;
         }
-        
+
         #main.event-page .map {
             margin-top: 75px;
             float: right;
             width: 425px;
             padding-left: 25px;
-        
+
             overflow: auto;
         }
-        
+
         #main.event-page .description h2 {
-            clear: none;   
+            clear: none;
         }
 
     #main.resources {
@@ -361,11 +361,11 @@ div.transfer_link{
 	div.transfer_link{
 		display: block;
 		text-align: center;
-    
+
 		/*In case in-browser buttons, e.g. zoom-in in Dolphin, or other stuff obscures the bottom of the page*/
 		margin-bottom: 50px;
 	}
-	
+
 	div.transfer_link > a{
         color: white;
     }

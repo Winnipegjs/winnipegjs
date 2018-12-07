@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoWrapper from './LogoWrapper'
+import LogoWrapper from '../components/LogoWrapper'
 
 const Home = () => {
   return <div id="main" className="index">
