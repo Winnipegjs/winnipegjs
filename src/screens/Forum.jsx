@@ -5,7 +5,7 @@ const Forum = () => {
     <div id="main" className="forum">
       <h1>Forum</h1>
       <p>
-        We are shutting down the forum, we encorage you to subscribe to our
+        We are shutting down the forum, we encourage you to subscribe to our
         slack chat.
       </p>
       <a
