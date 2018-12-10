@@ -37,40 +37,6 @@ const Home = () => {
             that without your help! We need you to come to our meetups, present,
             share, teach and learn.
           </p>
-          <div id="mc_embed_signup">
-            <form
-              id="mc-embedded-subscribe-form"
-              action="http://winnipegjs.us6.list-manage.com/subscribe/post?u=d8f30ceb631a0c2f28fff29dd&amp;id=59794fe157"
-              method="post"
-              name="mc-embedded-subscribe-form"
-              className="validate"
-              target="_blank"
-              // novalidate="novalidate"
-            >
-              <label htmlFor="mce-EMAIL">Subscribe to our mailing list</label>
-              <input
-                id="mce-EMAIL"
-                type="email"
-                value=""
-                name="EMAIL"
-                className="email"
-                placeholder="email address"
-                required="required"
-                onChange={() => {
-                  console.log('change');
-                }}
-              />
-              <div className="clear">
-                <input
-                  id="mc-embedded-subscribe"
-                  type="submit"
-                  value="Subscribe"
-                  name="subscribe"
-                  className="button"
-                />
-              </div>
-            </form>
-          </div>
         </div>
       </div>
     </div>
